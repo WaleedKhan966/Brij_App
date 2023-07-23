@@ -39,6 +39,8 @@ var LoginPage = function ()
       cy.get(this.PasswordInput).type(validPass,{force:true})
       cy.xpath(this.LoginButton).should('be.visible').click({force:true})
       cy.xpath(this.DashboardTab,{timeout:60000}).should('contain','Analytics')
+      cy.xpath("//img[@src='assets/images/BRIJ LOGO Black.png']").click({force:true})
+      cy.xpath("//div[text()='Logout']").click({force:true})
     }
     this.verifyAllFieldsExistInCreateForm = function () 
     {

@@ -14,7 +14,7 @@ describe("Test Suites for Create brands  Scenarios", () => {
         objLogin.enterCreadentials(data.Logindata.validEmail,data.Logindata.InValidpassword)
     })
 
-    it("TC: 03 Verifying that the app should allow to login with valid credentials. to display the App DashBoadrd", () => {
+    it("TC: 03 it should be fail just for testing", () => {
         cy.get('.input').should('contain','Analytics')
     })
 })
