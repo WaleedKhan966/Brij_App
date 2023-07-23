@@ -1,0 +1,21 @@
+{
+     "Logindata":
+     {
+     "validEmail": "superadmin@brij.it",
+     "InvalidEmailFormat" : "ibzamanisanigmailcom",
+     "Validpassword":"Admin123",
+     "InValidpassword":"StarGate22_@"
+    },
+    "People":
+    {
+    "AddPeopleid": "Test_ID_",
+    "AddPeopleEmail" : "Test_",
+    "UpdatePeopleid": "Up_Test",
+    "UpdatePeopleEmail" : "Up_ibzamanisani"
+   },
+   "Segment":
+   {
+   "Name": "Test Name Segment",
+   "Description" : "Test_Description Segment"
+  }
+}
